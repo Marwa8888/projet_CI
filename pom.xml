@@ -7,7 +7,7 @@
   <artifactId>devopsapp</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>DevOps App</name>
+  <name>DevOps_App</name>
   <description>Application DevOps App developpe par LesFormateurs.</description>
   <url>http://www.lesformateurs.com</url>
 
@@ -57,14 +57,14 @@
 
 <distributionManagement>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>nexus-snapshot</id>
         <name>devops-app-01-snapshots</name>
-        <url>http://10.0.2.6:8081/artifactory/devopsapp-snapshot</url>
+        <url>http://192.168.100.93:8081/repository/essai-snapshots/</url>
     </snapshotRepository>
         <repository>
-        <id>central</id>
+        <id>nexus-release</id>
         <name>devops-app-01-releases</name>
-        <url>http://10.0.2.6:8081/artifactory/devopsapp-releases</url>
+        <url>http://192.168.100.93:8081/repository/essai-releases/</url>
     </repository>
 </distributionManagement>
 
