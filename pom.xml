@@ -69,7 +69,7 @@
 </distributionManagement>
 <scm>
    <connection>scm:http://github.com/Marwa8888/projet_CI.git</connection>
-   <url>scm:http://github.com/Marwa8888/projet_CI.git</url>
+   <url>http://github.com/Marwa8888/projet_CI.git</url>
    <developerConnection>scm:http://github.com/Marwa8888/projet_CI.git</developerConnection>
 <tag>HEAD</tag>
 </scm>
