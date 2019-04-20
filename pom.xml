@@ -67,7 +67,12 @@
         <url>http://192.168.100.93:8081/repository/essai-releases/</url>
     </repository>
 </distributionManagement>
-
+<scm>
+   <connection>scm:git@github.com:Marwa8888/projet_CI.git</connection>
+   <url>scm:git@github.com:Marwa8888/projet_CI.git</url>
+   <developerConnection>scm:git@github.com:Marwa8888/projet_CI.git</developerConnection>
+<tag>devopsapp-4.0.0</tag>
+</scm>
 <!--  <distributionManagement>
     <site>
       <id>site-server</id>
@@ -89,7 +94,9 @@
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
+          <tagNameFormat>v@{project.version}</tagNameFormat>
           <autoVersionSubmodules>true</autoVersionSubmodules>
+          <releaseProfiles>releases</releaseProfiles>
         </configuration>
       </plugin>
 
