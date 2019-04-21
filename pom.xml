@@ -67,9 +67,9 @@
     </repository>
 </distributionManagement>
 <scm>
-   <connection>scm:git:ssh://git@github.com:Marwa8888/projet_CI.git</connection>
+   <connection>scm:https://github.com/Marwa8888/projet_CI.git</connection>
    <url>http://github.com/Marwa8888/projet_CI.git</url>
-   <developerConnection>scm:git:ssh://git@github.com:Marwa8888/projet_CI.git</developerConnection>
+   <developerConnection>scm:https://github.com/Marwa8888/projet_CI.git</developerConnection>
 <tag>devopsapp-1.0.3</tag>
 </scm>
 <!--  <distributionManagement>
@@ -103,7 +103,7 @@
    		<artifactId>maven-release-plugin</artifactId>
    		<version>2.4.2</version>
    		<configuration>
-      			<autoVersionSubmodules>true</autoVersionSubmodules>
+      			<autoVersionSubmodules>false</autoVersionSubmodules>
    		</configuration>
       </plugin>
 
