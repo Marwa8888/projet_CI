@@ -5,7 +5,7 @@
   <groupId>com.lesformateurs.maven-project</groupId>
   <artifactId>devopsapp</artifactId>
   <packaging>pom</packaging>
-  <version>1.0.3</version>
+  <version>1.0.3-SNAPSHOT</version>
   <name>DevOps_App</name>
   <description>Application DevOps App developpe par LesFormateurs.</description>
   <url>http://www.lesformateurs.com</url>
@@ -67,9 +67,9 @@
     </repository>
 </distributionManagement>
 <scm>
-   <connection>scm:https://github.com/Marwa8888/projet_CI.git</connection>
+   <connection>scm:http://github.com/Marwa8888/projet_CI.git</connection>
    <url>http://github.com/Marwa8888/projet_CI.git</url>
-   <developerConnection>scm:https://github.com/Marwa8888/projet_CI.git</developerConnection>
+   <developerConnection>scm:http://github.com/Marwa8888/projet_CI.git</developerConnection>
 <tag>devopsapp-1.0.3</tag>
 </scm>
 <!--  <distributionManagement>
